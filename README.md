@@ -35,7 +35,7 @@ REST API
 ---
 
 ## ⚙️ Features
-## 📌 Create Video
+### 📌 Create Video
 ```
 POST /videos
 ```
@@ -49,7 +49,7 @@ Body
 }
 ```
 
-## 📌 List Videos
+### 📌 List Videos
 ```
 GET /videos
 ```
@@ -59,7 +59,7 @@ Search videos by title
 GET /videos?search=node
 ```
 
-## 📌 Update Video
+### 📌 Update Video
 ```
 PUT /videos/:id
 ```
@@ -73,7 +73,7 @@ Body
 }
 ```
 
-## 📌 Delete Video
+### 📌 Delete Video
 ```
 DELETE /videos/:id
 ```
@@ -83,7 +83,7 @@ This project uses PostgreSQL hosted on Neon.
 
 ## 💻 Database Setup
 
-## Create Table
+### Create Table
 
 ```
 CREATE TABLE videos (
@@ -95,25 +95,23 @@ CREATE TABLE videos (
 ```
 
 ## 📦 Installation
-## 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 ```
 git clone <repository-url>
 ```
-## 2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 ```
 npm install
 ```
-## 3️⃣ Configure environment variables
+### 3️⃣ Configure environment variables
 ```
 Create a .env file:
-```
 DATABASE_URL="your_neon_database_url"
 ```
-4️⃣ Run the project
+### 4️⃣ Run the project
+```
 npm run dev
-```
 Server running at:
-```
 http://localhost:3333
 ```
 
