@@ -163,6 +163,16 @@ Content-Type: application/json
 DELETE http://localhost:3333/videos/VIDEO_ID
 ```
 
+## 🌐 Deployment
+This project was deployed using Render, allowing the API to run in the cloud with public access.
+
+The deployment includes:
+
+- Backend hosting with Node.js
+- PostgreSQL database connection using Neon
+- Environment variable configuration
+- Automatic deploy from the repository
+
 ## 🧠 Concepts Practiced
 - ✔️ REST API development
 - ✔️ HTTP routes
