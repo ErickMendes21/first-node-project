@@ -1,5 +1,3 @@
-# Criar primeira rota
-
 POST https://first-node-project-yhvo.onrender.com/videos
 Content-Type: application/json
 
